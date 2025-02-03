@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+button{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: pink;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 30px;
+    color: rgb(81, 78, 78);
+    z-index: 999;
+
+}
+button:active{
+    transform: translate(-50%,-50%) scale(0.9);
+}
