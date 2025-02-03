@@ -1,5 +1,5 @@
 const btn = document.querySelector("button");
-const ACCESS_KEY = "qb7TNX1nz9yMJbKhSdiJhLl-m6UBCsR9nU09eY48zMY";
+const ACCESS_KEY = "B7Uu_kVMF9Kslpzdjkf1lKFEssB_ycDJdhD5QPYp84s";
 
 async function fetchRandomImage() {
   try {
